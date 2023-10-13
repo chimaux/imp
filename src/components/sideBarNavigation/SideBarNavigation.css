@@ -1,0 +1,32 @@
+@import 'animate.css';
+
+
+.popuplinking {
+	width: 300px;
+	background: #fff ;
+	border-radius: 10px;
+	position: fixed;
+	display: block;
+	margin: auto;
+	left: 0;
+	transition: 1s ease-in-out;
+	top:73px;
+}
+
+.navli:hover{
+background-color:#0BDCB5;
+color: #fff;
+
+
+}
+
+.navli{
+	margin: 10px 0;
+	display: flex;
+	align-items: center;
+	padding:0px;
+	color: #0F224D;
+	padding: 0px 20px;
+	font-size: 1em;
+	height: 40px;
+}

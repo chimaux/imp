@@ -1,0 +1,171 @@
+.slider{
+  background-color: #000;
+  width: 100%;
+  height:400px ;
+}
+
+.liveNow{
+font-size: 35px;
+color: #0BDCB5;
+font-weight: 600;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.videodiv{
+justify-content: center;
+display: flex;
+ align-items: center;
+  margin-bottom: 30px;
+  padding-top: 35px;
+  gap:10px
+}
+.camera{
+  width: 40px;
+height: auto;
+color: #0BDCB5;
+display: flex;
+align-items: center;
+margin-top: 5px;
+}
+
+
+
+.videoDirectContainer{
+  border-radius: 15px; 
+  width: 200px;
+  height: 200px;
+   overflow: hidden;
+   position: relative;
+   display: flex;
+   align-items: center;
+  }
+
+
+  .videoHover{
+    width: 250px;
+    height: 250px;
+  
+  }
+
+  .vActiveName{
+    text-align: center;
+    color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal; 
+  margin-top: 20px;
+  }
+  .VidContainer{
+
+    display: inline-block;
+ 
+  }
+  .vid1{
+    border-radius: 5px; 
+     overflow: hidden;
+     position: relative;
+  }
+
+
+  /* .alice-carousel__stage-item.__active{
+    
+    
+  } */
+  #carousel1 .alice-carousel__stage-item{
+    margin-right: 20px;
+
+  }
+
+
+
+	@media (min-width: 640px) { 
+    .videoDirectContainer{
+      border-radius: 10px; 
+      width: 260px;
+      height: 260px;
+  
+      }
+    
+      .videoHover{
+        width: 280px;
+        height: 280px;
+      }
+      #carousel1 .alice-carousel__stage-item{
+        margin-right: 35px;
+    
+      }
+      .slider{
+        height:400px ;
+      }
+
+  }
+	@media (min-width: 768px) { 
+    .videoDirectContainer{
+      border-radius: 10px; 
+      width: 270px;
+      height: 270px;
+  
+      }
+    
+      .videoHover{
+        width: 310px;
+        height: 310px;
+      }
+      #carousel1 .alice-carousel__stage-item{
+        margin-right: 45px;
+    
+      }
+      .slider{
+        height:500px ;
+      }
+
+  }
+@media (min-width: 1024px) { 
+
+  .camera{
+    width: 50px;
+  height: auto;
+  color: #0BDCB5;
+  padding-top: 10px;
+  }
+  .liveNow{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
+    }
+  
+  .videoDirectContainer{
+    border-radius: 15px; 
+    width: 303px;
+    height: 304px;
+
+    }
+  
+    .videoHover{
+      width: 350px;
+      height: 350px;
+    }
+    #carousel1 .alice-carousel__stage-item{
+      margin-right: 50px;
+  
+    }
+
+
+    .slider{
+      height:550px ;
+    }
+    
+    .slider h3{
+    font-size: 30px;
+    padding-top: 25px;
+    }
+
+
+ }
+ /*
+xl	1280px	@media (min-width: 1280px) { ... }
+2xl	1536px	@media (min-width: 1536px) { ... } */

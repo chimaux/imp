@@ -1,0 +1,23 @@
+
+.desktopBanner {
+  display: none;
+}
+.mobileBanner {
+  display: block;
+}
+
+#carousel2 .alice-carousel__prev-btn{
+    display: none;
+  }
+#carousel2 .alice-carousel__next-btn{
+    display: none;
+  }
+
+@media (min-width: 768px) {
+  .desktopBanner {
+    display: block;
+  }
+  .mobileBanner {
+    display: none;
+  }
+}

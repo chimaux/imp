@@ -1,0 +1,288 @@
+
+@font-face {
+  font-family: 'HiraginoW8'; 
+  src: url('/font/HiraginoW8.otf') format('otf')
+}
+
+.backgroundimg{
+  background-image: url('/images/home/heroBanner1.png');
+  width: 100%;
+  background-position: cover;
+  margin-top: -100px;
+  background-attachment: fixed;
+  height: calc(763px - 80px);
+  padding: 50px 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+.backgroundimg2{
+  background-image: url('/images/home/heroBanner2.png');
+  width: 100%;
+  background-position: cover;
+  margin-top:-100px;
+  background-attachment: fixed;
+  height:calc(763px - 80px) ;
+  padding: 50px 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+.backgroundimg3{
+  background-image: url('/images/home/heroBanner3.png');
+  width: 100%;
+  background-position: cover;
+  margin-top:-100px;
+  background-attachment: fixed;
+  height:calc(763px - 80px) ;
+  padding: 50px 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+  .dark{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.6);
+  }
+
+
+
+/* .banner{
+  height: 250px;
+} */
+
+
+
+.connectdiv{
+  display: flex;
+  background: #0F224D;
+  flex-direction: column;
+  padding: 50px 50px;
+}
+
+.connectword{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 60px;
+}
+
+.overlay p {
+  padding: 20px 0;
+}
+
+.btndiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+
+
+.connectdiv {
+  display: flex;
+  background: #0f224d;
+  flex-direction: column;
+  padding: 50px 50px;
+}
+
+.connectword {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.connectword h4 {
+  font-family: HiraginoW8;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 330px;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.connectword p {
+  
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  width: 320px;
+  text-align: justify;
+  color: #fff;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  letter-spacing: 0cm;
+}
+
+.tableData {
+  display: grid;
+  grid-template-columns: repeat(1, 150px);
+  margin: 20px auto;
+  row-gap: 25px;
+}
+
+.tableDatas {
+  width: 200px;
+  border-radius: 20px;
+  position: relative;
+  height: 330px;
+}
+
+.carddiv {
+  background: #afafafe5;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: center;
+  bottom: 50px;
+  position: absolute;
+  height: 50px;
+}
+
+.carddiv img {
+  max-width: 55%;
+  max-height: 50px;
+}
+
+@media screen and (min-width: 600px) {
+  .backgroundimg p {
+    font-size: 20px;
+  }
+
+
+  .connectword p {
+    width: 385px;
+  }
+  .connectword h4 {
+    font-size: 25px;
+    width: 390px;
+    padding-bottom: 20px;
+  }
+
+  .tableData {
+    display: grid;
+    grid-template-columns: repeat(2, 227px);
+    margin: 20px auto;
+    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+ 
+
+  .btndiv {
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+
+
+  .connectword h4 {
+    padding-top: 40px;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 47px;
+    letter-spacing: 0em;
+    width: 600px;
+    padding-left: 20px;
+  }
+
+  .connectword p {
+    width: 720px;
+  }
+
+  .tableData {
+    display: grid;
+    grid-template-columns: repeat(3, 217px);
+    gap: 30px;
+  }
+  .connectdiv {
+    padding: 50px 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+
+
+  .heading{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 95px;
+  }
+
+
+ 
+  .overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .connectdiv {
+    flex-direction: row;
+    gap: 10px;
+    padding: 50px 30px;
+  }
+}
+
+
+  .connectword {
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+  }
+  .connectword h4 {
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 459px;
+    padding-left: 20px;
+  }
+  .connectword p {
+    width: 450px;
+  }
+
+  /* .imagesdiv img{
+  width: 160px;
+}
+
+.carddivs img{
+  width: 1rem;
+  background-color: #0BDCB5;
+} */
+
+  .carddiv {
+    width: 160px;
+    bottom: 30px;
+  }
+
+  .tableData {
+    grid-template-columns: repeat(3, 160px);
+    gap: 14px;
+  }
+
+  .tableDatas {
+    width: 160px;
+    height: 255px;
+  }
+

@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'HiraginoW3'; 
+  src: url('/font/HiraginoW3.otf') format('otf')
+}
+
+#carousel0 .alice-carousel__prev-btn{
+    display: none;
+  }
+#carousel0 .alice-carousel__next-btn{
+    display: none;
+  }
+  #carousel0{
+    position: relative;
+  }
+.heroText{
+  width: 100%;
+  z-index: 500;
+  position: absolute;
+  justify-content: center;
+}
+  
+  .overlay{
+
+    color:#fff;
+  margin-top: 190px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ margin-left:unset
+
+  }
+
+  .heading{
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 60px;
+  }
+
+  .overlay p{
+    padding: 20px 0;
+  }
+
+  .btndiv{
+    display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-top: 2rem;
+  }
+
+
+
+
+  .watchbtn{
+    font-family: HiraginoW3, sans-serif;
+    width: 168px;
+  height: 48px;
+  border-radius: 29px;
+ border: 2px solid rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .watchbtn:hover{
+
+    background: #0F224D;
+    color:#fff
+  }
+  
+  @media screen and (min-width:600px){
+    .backgroundimg p{
+    font-size: 20px;
+    }
+  
+  .heading{
+    font-size:50px;
+    line-height: 70px;
+    } 
+  }
+
+  @media (min-width: 768px) { 
+    .watchbtn {
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 17px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+    .btndiv{
+      align-items: center;
+      justify-content: center;
+      margin-top: 2rem;
+      }
+    .overlay{
+      flex-direction: column;
+      align-items: left;
+      margin-left:unset
+     }
+    .heading{
+      font-size: 45px;
+     
+    }
+
+  }
+@media (min-width: 1024px) { 
+  .watchbtn {
+    width: 188px;
+    height: 48px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .btndiv{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 2rem;
+    padding-left: 50px;
+  }
+ 
+  .heroText{
+    width: 100%;
+    z-index: 500;
+    position: absolute;
+    justify-content: flex-start;
+    /* background-color: red; */
+  }
+
+  .overlay{
+    display: inline-block;
+    margin-top: 150px;
+    /* background-color: black; */
+    margin-left: 60px;
+   }
+  
+ 
+ }
